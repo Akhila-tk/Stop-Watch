@@ -1,0 +1,51 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    border: 6px solid rgb(61, 61, 61);
+    border-radius: 20px;
+    width: 80vh;
+    height: 50vh;
+    margin: auto;
+    text-align: center; 
+    margin-top: 150px;
+    box-shadow: 10px 10px 5px rgb(175, 174, 174) ; 
+}
+#Myh1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+#display{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: monospace;
+    color: rgb(68, 68, 68);
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 2px rgb(255, 241, 241);
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+#startbtn{
+    background-color: rgb(6, 187, 6);
+}
+#startbtn:hover{
+    background-color: rgb(2, 97, 2);
+}
+#stopbtn{
+    background-color: rgb(246, 75, 75);
+
+}
+#stopbtn:hover{
+    background-color: red;
+}
+#resetbtn{
+    background-color: rgb(89, 89, 245);
+}
+
+#resetbtn:hover{
+    background-color: blue;
+}
